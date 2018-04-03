@@ -1,0 +1,4 @@
+alerts:
+  - name: lazarusTest
+    alerthost: http://your-prometheus-alertmanager.com:9093
+    action: /usr/local/bin/echofile.sh
